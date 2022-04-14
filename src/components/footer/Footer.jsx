@@ -1,8 +1,9 @@
-import { } from '@chakra-ui/react';
+import FooterBott from "./FooterBott";
 
 export default function Footer() {
     return(
         <>
+        <FooterBott />
         </>
     );
 }
