@@ -1,12 +1,10 @@
 import React from "react";
-import Footer from "./components/footer/Footer";
-
+import BannerQuartos from "./components/bannerQuartos/BannerQuartos";
 
 function App() {
   return (
     <>
-      
-    <Footer /> 
+    <BannerQuartos /> 
     </>
   );
 }
