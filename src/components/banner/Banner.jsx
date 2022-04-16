@@ -1,4 +1,3 @@
-// import LinkButton from "../LinkButton/LinkButton";
 import styles from "./Banner.module.css";
 
 import { Features } from "./Icons";
@@ -7,6 +6,7 @@ import { Icon } from "@chakra-ui/react";
 
 import { BiWifi, BiRestaurant, BiCar, BiCalendarEvent } from "react-icons/bi";
 import { FaConciergeBell, FaHotel, FaSwimmingPool} from "react-icons/fa";
+
 
 function Banner() {
   return (
@@ -24,9 +24,6 @@ function Banner() {
           sem turpis. 
         </p>
       </div>
-
-      {/* <a href="/">Conferir agora</a> */}
-      {/* <LinkButton to="/" text="/" /> */}
 
       <div className={styles.banner_icons}>
         <Features icon={<Icon as={FaConciergeBell} />} />
