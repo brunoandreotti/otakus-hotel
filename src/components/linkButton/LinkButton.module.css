@@ -1,12 +1,20 @@
+.link_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .button {
     background-color: #9B2C2C;
     color: #FFF;
-    border-radius: 2px;
-    padding: 10px 40px;
+    border-radius: 4px;
+    padding: 10px 80px;
     text-decoration: none;
     transition: 0.5s;
+    font-size: 20px;
 }
 
 .button:hover {
     background-color: #ED8936;
 }
+

@@ -11,4 +11,26 @@
     background-image: url(../../assets/images/quarto4.jpg);
     background-size: cover;
     background-position: center;
+    
+}
+
+.box_components {
+    width: 80%;
+    padding: 40px;
+    margin: 30px auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_container {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 30px;
 }
