@@ -1,24 +1,31 @@
-import { Image, Box, Heading } from '@chakra-ui/react';
-import img from "../../assets/images/quarto1.jpg";
+import { Image, Box, Heading } from "@chakra-ui/react";
 
-
-export default function CardQuarto() {
-  return(
-    <Box w={"300px"} h={"300px"} position={"relative"}>
-      
-  <Heading textAlign={"center"} position={"absolute"} as={"h4"} w={"100%"} mt={"80px"}>
-        titulo
+export default function CardQuarto({ title, image }) {
+  return (
+    <Box
+      w={{ base: "250px", md: "350px" }}
+      h={{ base: "250px", md: "350px" }}
+      position={"relative"}
+    >
+      <Heading
+        textAlign={"center"}
+        position={"absolute"}
+        as={"h4"}
+        fontSize={{ base: "15px", md: "25px" }}
+        w={"100%"}
+        mt={20}
+      >
+       {title}
       </Heading>
       <Box>
-      <Image
-    objectFit='cover'
-    borderRadius={"3"}
-    src={img}
-    alt='Dan Abramov'
-/>
-</Box>
-  </Box>
-  )
+        <Image
+          objectFit="cover"
+          borderRadius={"3"}
+          w={"100%"}
+          src={image}
+          alt=""
+        />
+      </Box>
+    </Box>
+  );
 }
-
-
