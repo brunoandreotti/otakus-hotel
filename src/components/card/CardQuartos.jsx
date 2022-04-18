@@ -17,13 +17,14 @@ export default function CardQuarto({ title, image }) {
       >
        {title}
       </Heading>
-      <Box>
+      <Box
+      objectFit="cover"
+      borderRadius={"3"}
+      w={"100%"}
+      >
         <Image
-          objectFit="cover"
-          borderRadius={"3"}
-          w={"100%"}
           src={image}
-          alt=""
+          alt={title}
         />
       </Box>
     </Box>

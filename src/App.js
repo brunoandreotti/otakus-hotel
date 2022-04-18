@@ -1,10 +1,10 @@
 import React from "react";
-import CardQuartos from "./components/card/CardQuartos";
+import BannerQuartos from "./components/bannerQuartos/BannerQuartos";
 
 function App() {
   return (
     <>
-    <CardQuartos /> 
+    <BannerQuartos /> 
     </>
   );
 }

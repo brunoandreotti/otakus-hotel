@@ -3,10 +3,9 @@ import styles from "./LinkButton.module.css";
 
 function LinkButton({ to, text }) {
   return(
-    <div class={styles.link_container}>
-    <Link className={styles.button} to={to} text={text}>
+    <Link className={styles.button} to={to}>
+    {text}
     </Link>
-    </div>
   );
 }
 
