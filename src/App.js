@@ -1,10 +1,10 @@
 import React from "react";
-import Banner from "./components/banner/Banner";
+import Cards from "./components/cardsEvents/Card";
 
 function App() {
   return (
     <>
-    <Banner />
+    <Cards />
     </>
   );
 }
