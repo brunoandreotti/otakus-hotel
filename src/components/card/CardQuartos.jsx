@@ -1,17 +1,20 @@
 import { Image, Box, Heading } from "@chakra-ui/react";
+import styles from "./CardQuartos.module.css";
 
-export default function CardQuarto({ title, image }) {
+export default function CardQuarto({ title, image, text }) {
   return (
     <Box
-      w={{ base: "250px", md: "350px" }}
-      h={{ base: "250px", md: "350px" }}
+    className={styles.image}
+      w={{ base: "200px", md: "350px" }}
+      h={{ base: "200px", md: "350px" }}
       position={"relative"}
     >
       <Heading
+      color={"Orange.600"}
         textAlign={"center"}
         position={"absolute"}
-        as={"h4"}
-        fontSize={{ base: "15px", md: "25px" }}
+        as={"h2"}
+        fontSize={{ base: "15px", md: "30px" }}
         w={"100%"}
         mt={20}
       >
@@ -19,12 +22,13 @@ export default function CardQuarto({ title, image }) {
       </Heading>
       <Box
       objectFit="cover"
-      borderRadius={"3"}
+      borderRadius={5}
       w={"100%"}
+      h={"100%"}
       >
-        <Image
+        <Image 
           src={image}
-          alt={title}
+          alt={text}
         />
       </Box>
     </Box>

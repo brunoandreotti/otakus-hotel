@@ -7,18 +7,22 @@
 .box_picture {
     display: block;
     width: 100%;
-    height: 600px;
+    height: 560px;
     background-image: url(../../assets/images/quarto4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
     background-position: center;
     
 }
 
 .box_components {
-    width: 80%;
-    padding: 40px;
+    width: 90%;
+    padding: 20px;
     margin: 30px auto;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,20 +30,21 @@
 }
 
 .link_container {
-    background-color: #000;
-    width: 100%;
+    background-color: transparent;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; 
-    padding: 30px;
+    padding: 20px;
 }
 
 .link_cards {
-    background-color: blueviolet;
+    background-color: transparent;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
 }
