@@ -18,10 +18,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     margin-left: 43px;
     padding: 5px 15px;
+}
+
+.card_texto:hover{
+    -webkit-transform: scaleX(1.2);
+    transform: scaleX(1.2);
+    color: #fff;
 }
 
 .card_texto h1 {
@@ -33,9 +39,6 @@
 .card_texto p {
     font-size: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
-.card_texto:hover{
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
