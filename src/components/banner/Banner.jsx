@@ -1,12 +1,8 @@
 import styles from "./Banner.module.css";
-
 import { Features } from "./Icons";
-
 import { Icon } from "@chakra-ui/react";
-
 import { BiWifi, BiRestaurant, BiCar, BiCalendarEvent } from "react-icons/bi";
-import { FaConciergeBell, FaHotel, FaSwimmingPool} from "react-icons/fa";
-
+import { FaConciergeBell, FaHotel, FaSwimmingPool } from "react-icons/fa";
 
 function Banner() {
   return (
@@ -21,7 +17,7 @@ function Banner() {
           sodales praesent tempor vulputate fringilla rhoncus justo. congue
           blandit curae aptent quam leo ut accumsan, porttitor volutpat
           tristique cursus lacus vestibulum magna, torquent justo leo rhoncus
-          sem turpis. 
+          sem turpis.
         </p>
       </div>
 
@@ -34,7 +30,7 @@ function Banner() {
         <Features icon={<Icon as={BiRestaurant} />} />
         <Features icon={<Icon as={BiCalendarEvent} />} />
       </div>
-      </div>
+    </div>
   );
 }
 
