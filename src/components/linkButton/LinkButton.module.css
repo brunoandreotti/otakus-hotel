@@ -1,14 +1,13 @@
 .button {
-    background-color: #9B2C2C;
-    color: #fff !important;
-    border-radius: 4px;
-    padding: 10px 80px;
-    transition: 0.5s;
-    font-size: 20px;
-    font-weight: bold;
+  background-color: #9b2c2c;
+  color: #fff !important;
+  border-radius: 4px;
+  padding: 10px 80px;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .button:hover {
-    background-color: #ED8936;
+  background-color: #ed8936;
 }
-

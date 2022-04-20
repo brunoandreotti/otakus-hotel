@@ -1,0 +1,47 @@
+.foto_container {
+  width: 350px;
+  height: 350px;
+  position: relative;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+}
+
+.foto img {
+  display: block;
+  max-width: 100%;
+}
+
+.foto:hover {
+  -webkit-filter: none;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.foto_texto {
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 85px;
+  visibility: visible;
+}
+
+.foto:hover .foto_texto {
+  visibility: hidden;
+}
+
+.foto_texto h1 {
+  color: #c05621;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
