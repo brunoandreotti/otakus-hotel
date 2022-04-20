@@ -8,7 +8,7 @@ function CardText({ titulo, texto, foto, alt }) {
         <p>{texto}</p>
       </div>
       <div className={styles.card_img}>
-      <img src={foto} alt={alt}></img>
+        <img src={foto} alt={alt}></img>
       </div>
     </div>
   );
