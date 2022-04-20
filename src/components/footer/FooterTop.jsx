@@ -35,7 +35,7 @@ const Contato = ({ text, icon }) => {
 export default function FooterTop() {
   return (
     <Box bg="gray.900" color="gray.100">
-      <Container as={Stack} maxW={"6xl"} py={{base:"5", md:"10"}}>
+      <Container as={Stack} maxW={"6xl"} py={{ base: "5", md: "10" }}>
         <SimpleGrid columns={[1, null, 2]} spacingX={"10px"}>
           <Stack
             py={{ base: "10", md: "0" }}
@@ -43,23 +43,25 @@ export default function FooterTop() {
           >
             <Contato
               icon={<Icon as={MdLocationOn} />}
-              text={"João XXIII, zona sul, 1000, São Paulo, Brasil."}
+              text={
+                "Curabitur convallis, Sollicitudin, 000, São Paulo, Brasil."
+              }
             />
-            <Contato icon={<Icon as={MdPhone} />} text={"+55 11 3522-4076"} />
+            <Contato icon={<Icon as={MdPhone} />} text={"+55 00 0000-0000"} />
             <Contato
               icon={<Icon as={MdEmail} />}
-              text={"otakushotel@gmail.com"}
+              text={"otakushotel@mail.com"}
             />
             <Contato
               icon={<Icon as={FaWhatsapp} />}
-              text={"+55 11 9 9873-5083"}
+              text={"+55 00 0 0000-0000"}
             />
           </Stack>
           <Flex
             direction={"row"}
             justify={{ base: "center", md: "flex-end" }}
             align={{ base: "center", md: "flex-end" }}
-            spacing={6}
+            color={"white"}
           >
             <Features icon={<Icon as={FaFacebook} />} />
             <Features icon={<Icon as={FaInstagram} />} />
