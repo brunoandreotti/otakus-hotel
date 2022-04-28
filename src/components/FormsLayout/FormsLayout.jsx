@@ -9,10 +9,13 @@ function Register({ TituloPage }) {
             <Center>
                 <Text fontSize={50}>{TituloPage}</Text>
             </Center>
+
             <div id="div-pai">
+
                 <div id="div-filho">
-                    <img id="imagem" src={Imagem} alt="imagem"/>
+                    <img id="imagem" alt="foto restaurante" src={Imagem} />
                 </div>
+
             </div>
         </>
     )
